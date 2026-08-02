@@ -7,7 +7,7 @@ print("sum",sum)
 a=int(input("enter a:"))
 b=int(input("enter b:"))
 diff=a-b
-print("difference",diff)#
+print("difference",diff)
 #multiplication
 a=int(input("enter a:"))
 b=int(input("enter b:"))
