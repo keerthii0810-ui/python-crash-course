@@ -1,4 +1,5 @@
 #understanding the list in python
+lists are mutable data types that can store a collection of items. They are defined using square brackets [] and can contain elements of different data types, including numbers, strings, and other lists. Lists are ordered, meaning that the elements have a specific order, and they can be accessed using their index.
 from turtle import clear
 
 
@@ -34,4 +35,6 @@ for brand in list:
     print(marks.extend([70,80,90]))#adding multiple elements to the end of the list
     print(len(marks))#finding the length of the list
     print(clear(marks))#removing all elements from the list
+    print(type(marks))#finding the type of the list
+    
     
