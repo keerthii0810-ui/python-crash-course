@@ -1,5 +1,4 @@
-#understanding the list in python
-lists are mutable data types that can store a collection of items. They are defined using square brackets [] and can contain elements of different data types, including numbers, strings, and other lists. Lists are ordered, meaning that the elements have a specific order, and they can be accessed using their index.
+#understanding the list
 from turtle import clear
 
 
