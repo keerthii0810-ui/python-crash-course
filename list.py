@@ -1,24 +1,20 @@
 #understanding the list
 from turtle import clear
 
-
 price_amount=1000,2000,3000,4000,5000#assigning the price amount to a variable
 print(price_amount[0]) #accessing the first element of the list
 print(price_amount[-1]) #accessing the last element of the list
 for i in price_amount: #iterating through the list
     print(i) #printing the elements of the list
     print("The price amount is:",i) #printing the elements of the list with a message
-    
-    
-    
+        
 #storing a list of items in a variable.
 brand="gucci","louis vuitton","prada","chanel","versace"#assigning the list of brands to a variable
 price_amount=1000,2000,3000,4000,5000#assign the price amount to a variable
 list=[brand,price_amount]#assigning the lists to a variable
 for brand in list:
     print(brand)#printing the list of brands and price amounts
-    
-    
+       
     #using different methods to access the elements of the list
     marks=[10,20,30,40,50]#assigning the list of marks to a variable
     print(marks.index(30))#accessing the index of the element 30 in the list
