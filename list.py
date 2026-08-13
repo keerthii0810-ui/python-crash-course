@@ -35,5 +35,10 @@ for brand in list:
     print(len(marks))#finding the length of the list
     print(clear(marks))#removing all elements from the list
     print(type(marks))#finding the type of the list
+    print(marks[0:2])#accessing a range of elements from the list
+    print(marks[-2:])#accessing the last two elements of the list
+    print(marks[::2])#accessing every second element of the list
+    print(marks[::-1])#accessing the elements of the list in reverse order
+    print(marks[:])
     
     
