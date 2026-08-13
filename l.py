@@ -1,5 +1,4 @@
 #understanding the list
-from turtle import clear
 
 price_amount=1000,2000,3000,4000,5000#assigning the price amount to a variable
 print(price_amount[0]) #accessing the first element of the list
@@ -29,7 +28,6 @@ for brand in list:
     print(marks.copy())#creating a copy of the list
     print(marks.extend([70,80,90]))#adding multiple elements to the end of the list
     print(len(marks))#finding the length of the list
-    print(clear(marks))#removing all elements from the list
     print(type(marks))#finding the type of the list
     print(marks[0:2])#accessing a range of elements from the list
     print(marks[-2:])#accessing the last two elements of the list
