@@ -10,4 +10,4 @@ def updated_roll_no(previous_roll_no):
     current_roll_no=previous_roll_no+[69,70,71]
     return(current_roll_no)
 
-print(updated_roll_no(59,60,61))
+print(updated_roll_no(59))
