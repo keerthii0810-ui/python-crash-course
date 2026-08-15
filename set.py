@@ -1,4 +1,3 @@
-#sets are unique collections of data types. They are unordered and unindexed. Sets are mutable, meaning you can add or remove items from them. However, the elements themselves must be immutable (like numbers, strings, or tuples).
 #creating a set
 my_set = {1, 2, 3, 4, 5,5,6,6}#creating a set with duplicate values. The duplicates will be removed automatically.
 print(my_set) #printing the set. Output will be {1, 2,
