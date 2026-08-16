@@ -7,5 +7,4 @@ print(sqrt(16))
 from math import sqrt,log10
 print(log10(10))
 
-import random
-print(random.random())
+
