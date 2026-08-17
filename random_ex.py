@@ -17,4 +17,4 @@ if customer_requirement>=stocks_available:
 else:
         print("stock is available")
         print("hello",name,"your requirement of products are available")
-print("The amount to be paid for the requirement:",price)        
+        print("The amount to be paid for the requirement:",price)        
