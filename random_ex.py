@@ -7,7 +7,7 @@ print(random.randint(1,5))
 
 import random
 name=input("enter your name:")
-paasword=(input("enter your password:"))
+password=input("enter your password:")
 customer_requirement=int(input("enter your requirement:"))
 stocks_available=random.randint(1,200)
 price=random.randint(1,20000)
