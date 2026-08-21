@@ -33,11 +33,19 @@ else:
 customer_requirement=int(input("Enter your requirement: "))
 index=skincare_brand.index(my_choice1)
 price=price_products[index]*customer_requirement
-stocks_available=random.randint(1,200)
-print("Currently available: ",stocks_available)
-if customer_requirement>=stocks_available:
+stocks_available=random.randint(1,500)
+print("Currently available stock : ",stocks_available)
+if customer_requirement>stocks_available:
         print("stock is not  available")
+        exit()
 else:
         print("Congratulations!...the stock is available")
         print("Hello",name,"your requirement of products are available.")
         print("The amount to be paid for the requirement:",price)        
+after_purchase=stocks_available-customer_requirement
+if after_purchase==0:
+    print("Out of stock")
+    exit()
+else:
+    print("The stock after purchase:",after_purchase)
+
