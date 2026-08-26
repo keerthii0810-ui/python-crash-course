@@ -1,4 +1,5 @@
 import random
+from datetime import datetime
 name=input("Enter your name: ")
 password=input("Enter your password: ")
 skincare_brand=["dot&key","kyliecosmetics","rhode","rarebeauty","cetaphil"]
@@ -48,4 +49,11 @@ if after_purchase==0:
     exit()
 else:
     print("The stock after purchase:",after_purchase)
+    current_time = datetime.now()
+    date = current_time.strftime("%d-%m-%Y")
+    time = current_time.strftime("%I:%M:%S %p")
+    print("Date:", date)
+    print("Time:", time)
+
+    
 
